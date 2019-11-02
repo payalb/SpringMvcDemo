@@ -23,7 +23,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.i18n.CookieLocaleResolver;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-@EnableTransactionManagement(proxyTargetClass=false)
+
 @ComponentScan(basePackages = "com.java")
 @EnableWebMvc
 @Configuration
